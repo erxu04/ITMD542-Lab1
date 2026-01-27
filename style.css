@@ -30,9 +30,16 @@ nav {
   font-size: 2em;
 }
 
-ul {
+#nav-list {
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
   background-color: rgb(88, 136, 159);
   margin: 0;
   padding: 0;
+}
+
+#nav-list li {
+  padding: 0.5em 1em;
+  text-align: right;
 }
