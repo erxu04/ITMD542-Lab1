@@ -6,6 +6,11 @@ html {
 
 body {
   margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+h2 {
+  font-family: "Playwrite US Modern", cursive;
 }
 
 nav {
