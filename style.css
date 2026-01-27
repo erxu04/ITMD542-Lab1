@@ -43,3 +43,7 @@ nav {
   padding: 0.5em 1em;
   text-align: right;
 }
+
+.hidden {
+  display: none;
+}
