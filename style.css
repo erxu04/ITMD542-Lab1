@@ -10,6 +10,11 @@ body {
   font-weight: 300;
 }
 
+h1 {
+  font-family: "EB Garamond", cursive;
+  font-weight: 100;
+}
+
 h2 {
   font-family: "EB Garamond", cursive;
   font-weight: 100;
@@ -72,6 +77,11 @@ nav {
   gap: 0.8em;
   text-align: center;
   color: white;
+}
+
+#hero-text h1{
+  font-family: "Outfit", sans-serif; 
+  font-weight: 600;
 }
 
 button {
