@@ -31,6 +31,8 @@ nav {
 }
 
 #nav-list {
+  position: fixed;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   list-style-type: none;
@@ -53,7 +55,9 @@ nav {
 }
 
 #hero-section {
-  
+  height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0, 0.6)), url("/images/hero-image.jpg");
+  background-size: cover;
 }
 
 #hero-text {
