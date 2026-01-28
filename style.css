@@ -100,3 +100,29 @@ button {
   padding: 0.2em 0.5em;
   max-width: 70vw;
 }
+
+#features-section {
+  padding: 1em 0.75em;
+}
+
+#features-section h1 {
+  text-align: center;
+  color: rgb(74, 52, 28);
+}
+
+#features-row {
+  margin-top: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-card {
+  color: rgb(74, 52, 28);
+  text-align: center;
+  margin: 1em;
+  padding: 1em 1.2em 1.5em 1.2em;
+  border-radius: 10px;
+  /* background-color: rgb(173, 148, 116); */
+  box-shadow: 5px 5px 10px #ded6cf, 
+            -5px -5px 10px #fffefe;
+}
