@@ -10,10 +10,6 @@ body {
   font-weight: 300;
 }
 
-h1 {
-  text-align: center;
-}
-
 h2 {
   font-family: "Playwrite US Modern", cursive;
 }
@@ -56,3 +52,7 @@ nav {
   background-color: rgb(73, 129, 155);
 }
 
+#hero-text {
+  text-align: center;
+  color: white;
+}
