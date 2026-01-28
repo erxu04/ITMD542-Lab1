@@ -39,11 +39,12 @@ nav {
   padding: 0;
 }
 
+#nav-list.hidden {
+  display: none;
+}
+
 #nav-list li {
   padding: 0.5em 1em;
   text-align: right;
 }
 
-.hidden {
-  display: none;
-}
