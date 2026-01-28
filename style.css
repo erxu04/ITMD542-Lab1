@@ -10,6 +10,10 @@ body {
   font-weight: 300;
 }
 
+h1 {
+  text-align: center;
+}
+
 h2 {
   font-family: "Playwrite US Modern", cursive;
 }
@@ -46,5 +50,9 @@ nav {
 #nav-list li {
   padding: 0.5em 1em;
   text-align: right;
+}
+
+#nav-list li:hover {
+  background-color: rgb(73, 129, 155);
 }
 
