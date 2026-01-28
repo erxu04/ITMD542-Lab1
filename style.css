@@ -1,7 +1,7 @@
 /* Base media query: mobile */
 
 html {
-  background-color: azure;
+  background-color: rgb(247, 244, 242);
 }
 
 body {
@@ -11,7 +11,9 @@ body {
 }
 
 h2 {
-  font-family: "Playwrite US Modern", cursive;
+  font-family: "EB Garamond", cursive;
+  font-weight: 100;
+  font-size: 2em;
 }
 
 nav {
