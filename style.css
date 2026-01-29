@@ -310,4 +310,8 @@ form button {
   body {
     font-size: 1em;
   }
+
+  #hero-section {
+    height: 50vh;
+  }
 }
