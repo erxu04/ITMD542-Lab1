@@ -222,29 +222,25 @@ form button {
   body {
     font-size: 1.2em;
   }
-
-  .menu-logo {
-    display: none;
-  }
-
+  
   nav {
     display: flex;
     background-color: rgb(45, 88, 108);
   }
 
-  #nav-list {
-    width: min-content;
+  .menu-logo {
+    display: none;
+  }
+
+  /* nav-list will always have the class hidden in tablet screen - the collapse menu button is hidden */
+  #nav-list.hidden {
+    position: static;
     display: flex;
     flex-direction: row;
-    list-style-type: none;
-    background-color: rgb(88, 136, 159);
-    margin: 0;
-    padding: 0;
-}
-
-#nav-list.hidden {
-  display: flex;
-}
+    justify-content: end;
+    align-items: center;
+    background-color: transparent;
+  }
 }
 
 /* Laptop Screen media query */
