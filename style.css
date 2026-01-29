@@ -305,7 +305,7 @@ form button {
 
 /* Laptop Screen media query */
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
 
   body {
     font-size: 1em;
