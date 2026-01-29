@@ -314,4 +314,30 @@ form button {
   #hero-section {
     height: 50vh;
   }
+
+  #features-section {
+    padding: 3em 0.75em;
+  }
+
+  #features-row {
+    margin-top: 2em;
+    gap: 1em;
+  }
+
+  .feature-card {
+    width: 20vw;
+  }
+
+  #about-section {
+    font-size: 1.2em;
+    height: 60vh;
+  }
+
+  #about-text p {
+    margin-top: 1em;
+  }
+
+  #contact-section {
+    padding: 5em 30em;
+  }
 }
