@@ -122,11 +122,35 @@ button {
   margin: 1em;
   padding: 1em 1.2em 1.5em 1.2em;
   border-radius: 10px;
-  /* background-color: rgb(173, 148, 116); */
   box-shadow: 5px 5px 10px #ded6cf, 
             -5px -5px 10px #fffefe;
 }
 
 #about-section {
+  /* position relative is needed so absolutely-positioned #blur-layer can have a positioned parent to reference*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
   text-align: center;
+  background-image: url("/images/hero-section-bg.jpg");
+  background-size: cover;
+  height: 50vh;
+}
+
+#blur-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* height: 40px; */
+  background-color: rgba(235, 249, 255, 0.4);
+  backdrop-filter: blur(4px);
+}
+
+#about-text {
+  /* position other than static is needed to let z-index take effect */
+  position: relative;
+  z-index: 1;
+  padding: 2em;
+  color:rgb(5, 8, 9)
 }
