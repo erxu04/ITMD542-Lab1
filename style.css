@@ -111,6 +111,10 @@ button:hover {
   background-color: rgb(255, 255, 255, 0.1);
 }
 
+#hero-image {
+  display: none;
+}
+
 #features-section {
   padding: 1em 0.75em;
 }
