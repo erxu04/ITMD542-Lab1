@@ -72,6 +72,8 @@ i {
   background-color: rgb(60, 116, 141);
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgb(0, 0, 0, 0.6)), url("/images/hero-image.jpg");
   background-size: cover;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 #hero-text {
@@ -139,7 +141,7 @@ button:hover {
   text-align: center;
   background-image: url("/images/hero-section-bg.jpg");
   background-size: cover;
-  height: 50vh;
+  height: 30vh;
 }
 
 #blur-layer {
@@ -160,7 +162,7 @@ button:hover {
 }
 
 #contact-section {
-  min-height: 75vh;
+  /* min-height: 75vh; */
   background-color: rgb(45, 88, 108);
   display: flex;
   flex-direction: column;
