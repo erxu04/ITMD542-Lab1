@@ -191,4 +191,13 @@ input, textarea {
   border: 0px;
   padding: 0.5em;
   background-color: rgb(73, 129, 155);
+  color: white;
 }
+
+::placeholder {
+  color: rgb(147, 188, 207);
+}
+
+/* :focus {
+  border: none;
+} */
